@@ -11,11 +11,11 @@ import { DatePipe, DecimalPipe } from '@angular/common';
 })
 export class CurrentWeatherComponent {
   current: ICurrentWeather = {
-    city: 'Redmond',
+    city: 'Philadelphia',
     country: 'US',
     date: new Date(),
     image: '',
-    temperature: 67,
-    description: 'Sunny weather'
+    temperature: 80,
+    description: 'Threat of thunderstorms'
   }
 }
